@@ -48,10 +48,13 @@ export const SectionContainer = styled.div`
     margin-right: auto;
     margin-left: auto;
     position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 `; 
 
 export const SectionDiv = styled.div`
-    width: 16.666%;
 `;
 
 export const Section3 = styled.section`

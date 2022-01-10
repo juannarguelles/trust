@@ -14,7 +14,7 @@ const Navbar = () => {
       <Header>
         <Nav>
           <NavLink to='/'>
-            <img src={logo} alt='logo' />
+            <img src={logo} alt='trust fund' />
           </NavLink>
           <Bars />
           <NavMenu>

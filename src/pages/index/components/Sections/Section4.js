@@ -58,7 +58,7 @@ const Section4 = () => {
                         </Section1>
                         <Section2>
                             <SectionContainer>
-                            <SectionDiv>
+                                <SectionDiv>
                                     <a href="https://miguezpropiedades.com.ar/">
                                         <img src={Img}
                                         alt="" width="200px" height="200px"/>

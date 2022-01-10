@@ -27,11 +27,11 @@ export const Paragraph = styled.p`
 
 
 export const ImgContainer = styled.div`
-    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     padding: 120px 0px 120px 0px;
 `;
 
@@ -41,24 +41,21 @@ export const Linkes = styled.a`
 `; 
 
 export const Div1 = styled.div`
-    width: 33%;
     height: auto;
 `;
 
 export const Div2 = styled.div`
-    width: 33%;
     height: auto;
 `;
 
 export const Div3 = styled.div`
-    width: 33%;
     height: auto;
 `;
 
 export const Image = styled.img`
     display: block;
     margin: auto;
-    width: 200px;
+    max-width: 420px;
 `;
 
 export const SubDiv = styled.div`
